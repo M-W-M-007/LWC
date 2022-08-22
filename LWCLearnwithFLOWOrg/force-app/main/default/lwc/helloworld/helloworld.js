@@ -42,4 +42,4 @@ export default class Helloworld extends LightningElement {
     get multiply(){
         return this.num1 * this.num2
     }
-}  
+}
