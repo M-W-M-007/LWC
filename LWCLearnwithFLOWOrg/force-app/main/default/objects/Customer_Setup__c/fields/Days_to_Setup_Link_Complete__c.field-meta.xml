@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_to_Setup_Link_Complete__c</fullName>
+    <description>2020-02-06 - N. Ehrmann - AUTO - The days from Setup Link Sent to Setup Link Complete.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+   Setup_Link_Complete_Date__c = null,
+   TODAY() -  Setup_Link_Sent_On__c,
+   Setup_Link_Complete_Date__c - Setup_Link_Sent_On__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Days to Setup Link Complete</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

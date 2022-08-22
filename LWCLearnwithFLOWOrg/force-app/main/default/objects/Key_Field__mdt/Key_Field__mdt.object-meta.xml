@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>2020-02-17 - N. Ehrmann - &quot;Key Fields&quot; are fields located on both the Contact and Account objects which should be in sync at all times. That is, if a Contact is inserted or updated with a nonblank value that is different from what is currently in the system, then that value should be passed up to the Account and distributed to all other Contacts on the Account.</description>
+    <label>Key Field</label>
+    <pluralLabel>Key Fields</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Development_Rep_2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>2020-04-13 - N. Ehrmann - MANUAL - The secondary BDR on this territory for redundancy. Used by TERRITORY assignment code.</description>
+    <externalId>false</externalId>
+    <label>BDR 2</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Account_Territories_Secondary_BDR</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

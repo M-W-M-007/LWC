@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X00_BACKLOG</fullName>
+    <columns>NAME</columns>
+    <columns>Project__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Assigned_To__c</columns>
+    <columns>Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Backlog_Status__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Level__c</field>
+        <operation>equals</operation>
+        <value>Primary</value>
+    </filters>
+    <label>000 - BACKLOG</label>
+</ListView>

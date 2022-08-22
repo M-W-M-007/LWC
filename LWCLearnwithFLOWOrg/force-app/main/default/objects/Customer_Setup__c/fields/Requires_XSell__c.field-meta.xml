@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requires_XSell__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>AUTO - This box will be checked by OPPYCLOSED_Trigger if the Opportunity *does not* contain additional accounts / transactions for AutoRec. If checked, then at &quot;Pending Documents&quot; a cross sell Opportunity will be created to be managed by CS / Setup / Sales.</description>
+    <externalId>false</externalId>
+    <label>Requires XSell</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

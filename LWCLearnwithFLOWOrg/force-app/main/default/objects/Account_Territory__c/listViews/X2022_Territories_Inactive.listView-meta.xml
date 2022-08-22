@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2022_Territories_Inactive</fullName>
+    <columns>Territory_Group_20__c</columns>
+    <columns>Territory_Group__c</columns>
+    <columns>NAME</columns>
+    <columns>Associated_Geos__c</columns>
+    <columns>Business_Development_Rep__c</columns>
+    <columns>Business_Development_Rep_2__c</columns>
+    <columns>Account_Executive_Rep__c</columns>
+    <columns>Account_Executive_Rep_2__c</columns>
+    <columns>AE_Manager__c</columns>
+    <columns>BDR_Manager__c</columns>
+    <columns>Effective_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>AM_Territory__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>2022</value>
+    </filters>
+    <label>2022 Territories (Inactive)</label>
+</ListView>

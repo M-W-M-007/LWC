@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sort_Order__c</fullName>
+    <description>AUTO - This is set by ACCTPRODUCT_Util when the set of Account Products is created. This assists in the ordering in the ACCTPRODUCT_Main component.</description>
+    <externalId>false</externalId>
+    <label>Sort Order</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

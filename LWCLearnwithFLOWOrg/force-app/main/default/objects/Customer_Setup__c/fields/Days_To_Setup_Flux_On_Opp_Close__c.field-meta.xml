@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_To_Setup_Flux_On_Opp_Close__c</fullName>
+    <description>MIS-133: Calculates difference between opp close date and date when flux was actually setup to show how many days it took to setup flux subsequence opp close.</description>
+    <externalId>false</externalId>
+    <formula>Date_Flux_Setup_Complete__c - Opportunity__r.CloseDate</formula>
+    <label>Days To Setup Flux On Opp Close</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

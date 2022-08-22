@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unique_Account_TOP</fullName>
+    <active>true</active>
+    <description>Related account must be different from the Contact&apos;s primary account.</description>
+    <errorConditionFormula>Contact__r.AccountId =  Account__c</errorConditionFormula>
+    <errorMessage>Related Account must be different than the Contact&apos;s primary account.</errorMessage>
+</ValidationRule>

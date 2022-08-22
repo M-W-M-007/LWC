@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AUTOREC_Training_Complete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>2020-05-15 - N. Ehrmann - MANUAL - Indicates that Autorec training was completed.</description>
+    <externalId>false</externalId>
+    <label>Autorec Training Complete</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

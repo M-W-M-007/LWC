@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Setup__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Setup</label>
+    <referenceTo>Customer_Setup__c</referenceTo>
+    <relationshipLabel>Champions</relationshipLabel>
+    <relationshipName>Champions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

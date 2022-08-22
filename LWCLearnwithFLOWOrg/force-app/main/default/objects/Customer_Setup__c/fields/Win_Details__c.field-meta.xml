@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Win_Details__c</fullName>
+    <description>AUTO - Populated by SETUP_BeforeInsert. The Win Details from the Account at the time that the Opportunity was Closed Won. If these are updated afterwards, they will not be delivered to the Customer Setup.</description>
+    <externalId>false</externalId>
+    <label>Win Details</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

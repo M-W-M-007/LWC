@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reward_Options__c</fullName>
+    <externalId>false</externalId>
+    <label>Reward Options</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Actual_Reward__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amazon Gift Card - $25</fullName>
+                <default>false</default>
+                <label>Amazon Gift Card - $25</label>
+            </value>
+            <value>
+                <fullName>Amazon Gift Card - $100</fullName>
+                <default>false</default>
+                <label>Amazon Gift Card - $100</label>
+            </value>
+            <value>
+                <fullName>Amazon Gift Card - $200</fullName>
+                <default>false</default>
+                <label>Amazon Gift Card - $200</label>
+            </value>
+            <value>
+                <fullName>FQ Patagonia Jacket</fullName>
+                <default>false</default>
+                <label>FQ Patagonia Jacket</label>
+            </value>
+            <value>
+                <fullName>Other - $25</fullName>
+                <default>false</default>
+                <label>Other - $25</label>
+            </value>
+            <value>
+                <fullName>Other - $100</fullName>
+                <default>false</default>
+                <label>Other - $100</label>
+            </value>
+            <value>
+                <fullName>Other - $200</fullName>
+                <default>false</default>
+                <label>Other - $200</label>
+            </value>
+            <value>
+                <fullName>2% Commission</fullName>
+                <default>false</default>
+                <label>2% Commission</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>$25 value reward</controllingFieldValue>
+            <valueName>Amazon Gift Card - $25</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>$25 value reward</controllingFieldValue>
+            <valueName>Other - $25</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>$100 value reward</controllingFieldValue>
+            <valueName>Amazon Gift Card - $100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>$100 value reward</controllingFieldValue>
+            <valueName>Other - $100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>$200 value reward</controllingFieldValue>
+            <valueName>Amazon Gift Card - $200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>$200 value reward</controllingFieldValue>
+            <valueName>FQ Patagonia Jacket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>$200 value reward</controllingFieldValue>
+            <valueName>Other - $200</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Customer_Setups_Kanban</fullName>
+    <columns>NAME</columns>
+    <columns>Secondary_Setup_Lead__c</columns>
+    <columns>Cloud_Storage_System__c</columns>
+    <columns>ERP__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary_Setup_Lead_Current_User__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Customer Setups (Primary) - Kanban</label>
+</ListView>

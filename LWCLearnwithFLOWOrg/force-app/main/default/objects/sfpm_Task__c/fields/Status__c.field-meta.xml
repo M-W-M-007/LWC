@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>2020-01-15 - N. Ehrmann - Status formula for use on related lists.</description>
+    <externalId>false</externalId>
+    <formula>/* ticket is subtask */
+IF(
+   NOT(ISPICKVAL(Subtask_Status__c,&quot;&quot;)),
+   Text(Subtask_Status__c),
+   &quot;&quot;
+)
+&amp;
+
+/* ticket is in backlog */
+IF(
+   NOT(ISPICKVAL(Backlog_Status__c,&quot;&quot;)),
+   &quot;BACKLOG - &quot; &amp; TEXT(Backlog_Status__c),
+   &quot;&quot;
+)
+&amp;
+
+/* ticket is in progress */
+
+IF(
+   NOT(ISPICKVAL(WIP_Status__c,&quot;&quot;)),
+   &quot;IN PROGRESS - &quot; &amp; TEXT(WIP_Status__c),
+   &quot;&quot;
+)
+&amp;
+
+/* ticket is done */
+
+IF(
+   NOT(ISPICKVAL(Done_Status__c,&quot;&quot;)),
+   &quot;DONE - &quot; &amp; TEXT(Done_Status__c),
+   &quot;&quot;
+)</formula>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

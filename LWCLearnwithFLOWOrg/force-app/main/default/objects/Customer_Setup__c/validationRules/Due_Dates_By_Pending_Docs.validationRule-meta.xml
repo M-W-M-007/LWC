@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Dates_By_Pending_Docs</fullName>
+    <active>true</active>
+    <description>SF-85: Due by dates in the Setup Details section are required before entering the Pending Documentation status.</description>
+    <errorConditionFormula>AND(
+   ISBLANK(Primary_Setup__c),
+   ISPICKVAL(Status__c, &quot;Pending Documentation&quot;),
+   OR( 
+      ISBLANK(Launch_Call_By__c),
+      ISBLANK(Documents_Due_By__c), 
+      ISBLANK(Mapping_Preparation_By__c),
+      ISBLANK(Mapping_Review_By__c),
+      ISBLANK(Initial_Setup_By__c),
+      ISBLANK(Admin_Training_By__c), 
+      ISBLANK(Team_Training_By__c),
+      ISBLANK(Post_Setup_Check_In_By__c),
+      ISBLANK(Optimization_Call_By__c),
+      ISBLANK(Transfer_to_AM_By__c)
+   )
+)</errorConditionFormula>
+    <errorMessage>All fields in the &apos;Setup Due Dates&apos; section must filled out prior to advancing in status.</errorMessage>
+</ValidationRule>

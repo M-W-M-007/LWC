@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Setup_Difficulty__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(Opportunity__r.Setup_difficulty_1_5__c)</formula>
+    <inlineHelpText>Set on the parent pre-sale opportunity.</inlineHelpText>
+    <label>Pre-sale Setup difficulty (1-10)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

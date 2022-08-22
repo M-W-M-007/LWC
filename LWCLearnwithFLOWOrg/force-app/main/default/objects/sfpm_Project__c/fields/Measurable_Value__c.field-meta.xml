@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Measurable_Value__c</fullName>
+    <description>2020-01-13 - N. Ehrmann - Metrics or KPIs which can confirm whether or not this workstream is still delivering value.</description>
+    <externalId>false</externalId>
+    <label>Measurable Value</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>palto</fullName>
+    <columns>NAME</columns>
+    <columns>Account_Territory__c</columns>
+    <columns>Country__c</columns>
+    <columns>Accounts__c</columns>
+    <columns>County__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Customers__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Open_Opportunities__c</columns>
+    <columns>Other_Accounts__c</columns>
+    <columns>State__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>Palo Alto</value>
+    </filters>
+    <label>palto</label>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Task__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>2020-01-14 - N. Ehrmann - If multiple Issues arise over time from Work, then this should point back to the original source of that Work.</description>
+    <externalId>false</externalId>
+    <label>Original Task</label>
+    <referenceTo>sfpm_Task__c</referenceTo>
+    <relationshipName>Future_Issues</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

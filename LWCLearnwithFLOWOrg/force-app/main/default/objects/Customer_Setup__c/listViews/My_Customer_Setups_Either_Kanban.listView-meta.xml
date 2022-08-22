@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Customer_Setups_Either_Kanban</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Cloud_Storage_System__c</columns>
+    <columns>ERP__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary_Setup_Lead_Current_User__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Secondary_Setup_Lead_Current_User__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Customer Setups (Prm OR Sec) - Kanban</label>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Slack_Notifications__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>2020-05-04 - N. Ehrmann - AUTO - Whether or not the User (Contact) is using Slack notifications.</description>
+    <externalId>false</externalId>
+    <label>Slack Notifications</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

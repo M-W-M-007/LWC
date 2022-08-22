@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Entities__c</fullName>
+    <description>MIS-222: Number of entities from the opportunity. Used in estimating setup difficulty.</description>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Number_of_Entities__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Set on the opportunity. Used in estimating setup difficulty.</inlineHelpText>
+    <label>Number of Entities</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

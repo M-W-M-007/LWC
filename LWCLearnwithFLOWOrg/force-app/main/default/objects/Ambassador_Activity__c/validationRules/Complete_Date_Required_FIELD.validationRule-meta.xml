@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complete_Date_Required_FIELD</fullName>
+    <active>true</active>
+    <description>Complete Date is required on activity completed.</description>
+    <errorConditionFormula>Activity_Complete__c &amp;&amp;  ISBLANK( Activity_Date__c )</errorConditionFormula>
+    <errorDisplayField>Activity_Date__c</errorDisplayField>
+    <errorMessage>Please provide date when the activity was completed.</errorMessage>
+</ValidationRule>

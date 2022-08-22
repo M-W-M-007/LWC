@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>2020-4-21 - J. Kim - This is a switch to turn off specific nodes within process builder, workflow rules, and validation rules.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>PB Activation</label>
+    <visibility>Public</visibility>
+</CustomObject>

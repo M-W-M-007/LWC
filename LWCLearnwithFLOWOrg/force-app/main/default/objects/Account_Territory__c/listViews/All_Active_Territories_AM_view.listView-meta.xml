@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Active_Territories_AM_view</fullName>
+    <columns>Territory_Group__c</columns>
+    <columns>NAME</columns>
+    <columns>AM_1__c</columns>
+    <columns>AM_2__c</columns>
+    <columns>AM_Territory__c</columns>
+    <columns>Associated_Geos__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <label>All Active Territories - AM view</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Referred_Account_FIELD</fullName>
+    <active>true</active>
+    <description>Account and Contact are required if the activity is customer referral.</description>
+    <errorConditionFormula>ISPICKVAL( Activity__c , &quot;Customer Referral&quot;) 
+&amp;&amp;  
+ISBLANK( Referred_Account__c )</errorConditionFormula>
+    <errorDisplayField>Referred_Account__c</errorDisplayField>
+    <errorMessage>Referred account is required if the activity is customer referral.</errorMessage>
+</ValidationRule>

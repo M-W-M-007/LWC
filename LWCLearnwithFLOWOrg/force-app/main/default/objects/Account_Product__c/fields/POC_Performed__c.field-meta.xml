@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POC_Performed__c</fullName>
+    <description>MANUAL - Set using the ACCTPRODUCTS component on the Account or Opportunity page. Whether or not a Proof of Concept was performed for AUTOREC MATCHING.</description>
+    <externalId>false</externalId>
+    <label>POC Performed</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

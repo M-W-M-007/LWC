@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Hand_Off_Notes_TOP</fullName>
+    <active>false</active>
+    <description>SF-85: AM hand off notes are required before completing setup. If the Status is &apos;Setup Complete&apos;, all fields in the AM Hand Off Notes are required.</description>
+    <errorConditionFormula>AND(
+   ISBLANK(Primary_Setup__c),
+   ISPICKVAL(Status__c, &quot;Pending Optimization&quot;),
+   OR(
+       ISBLANK(Personalities__c),
+       ISBLANK(Days_to_Close_Goal_vs_Current__c),  
+       ISBLANK(Responsiveness_Rate__c) ,
+       ISBLANK(Cloud_Storage_Sync__c),
+       ISBLANK(Pain_Points__c),
+       ISBLANK(Expected_Migrations__c),
+       ISBLANK(Communication_Preference__c),
+       ISBLANK(Goals__c),
+       ISBLANK(Setup_Time__c),
+       ISBLANK(Features_Requested__c),
+       ISBLANK(Cross_Sell_Upsell_Opportunities__c),
+       ISBLANK(Other_Notes_for_AMs__c)
+   )
+)</errorConditionFormula>
+    <errorDisplayField>Account__c</errorDisplayField>
+    <errorMessage>All fields in the &apos;AM Hand Off Notes Sections&apos; are required. If inapplicable, please type &apos;N/A&apos; or  &apos;None&apos;.</errorMessage>
+</ValidationRule>

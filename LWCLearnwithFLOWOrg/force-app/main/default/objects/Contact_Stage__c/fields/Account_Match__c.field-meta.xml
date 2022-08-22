@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Match__c</fullName>
+    <description>AUTO - If an Account is matched using the website, then this will be the ID of that Account.</description>
+    <externalId>false</externalId>
+    <label>Account Match</label>
+    <length>18</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

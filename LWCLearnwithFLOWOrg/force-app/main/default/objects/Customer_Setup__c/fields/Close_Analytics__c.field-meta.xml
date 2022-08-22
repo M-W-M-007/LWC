@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Analytics__c</fullName>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Close_Analytics_Seats__c &gt; 0</formula>
+    <inlineHelpText>Controlled on the opportunity level.</inlineHelpText>
+    <label>Close Analytics</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Addtl_Note_For_Role_Other_TOP</fullName>
+    <active>true</active>
+    <description>If the contact role is other, additional note is required.</description>
+    <errorConditionFormula>ISPICKVAL( Contact_Role__c , &quot;Other&quot;) &amp;&amp;   ISBLANK(Additional_Notes__c )</errorConditionFormula>
+    <errorMessage>Please provide additional notes for the other contact role.</errorMessage>
+</ValidationRule>

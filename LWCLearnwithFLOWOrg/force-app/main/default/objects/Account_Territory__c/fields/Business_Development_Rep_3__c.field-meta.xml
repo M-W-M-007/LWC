@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Development_Rep_3__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>MANUAL - A spot for a 3rd BDR in larger teams. This does not get assigned Prospects, but will be notified for HQLs.</description>
+    <externalId>false</externalId>
+    <label>BDR 3</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Account_Territories</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

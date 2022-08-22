@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bug_Source__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>2020-01-14 - N. Ehrmann - For Issues, the original work which caused the problem.</description>
+    <externalId>false</externalId>
+    <label>Bug Source</label>
+    <referenceTo>sfpm_Task__c</referenceTo>
+    <relationshipName>Bugs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

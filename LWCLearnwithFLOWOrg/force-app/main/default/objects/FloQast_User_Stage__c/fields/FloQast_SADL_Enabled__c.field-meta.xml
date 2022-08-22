@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FloQast_SADL_Enabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>2019-12-12 - N. Ehrmann - This field maps to ACCOUNT . FloQast_SADL_Enabled__c.</description>
+    <externalId>false</externalId>
+    <label>SADL Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

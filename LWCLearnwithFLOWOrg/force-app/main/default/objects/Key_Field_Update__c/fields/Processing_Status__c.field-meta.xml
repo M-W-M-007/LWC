@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Processing_Status__c</fullName>
+    <defaultValue>&quot;New&quot;</defaultValue>
+    <description>2020-02-17 - N. Ehrmann - AUTO - This defaults to &quot;New&quot; and is later changed to &quot;Processed&quot; or &quot;Error&quot; based on execution of future apex.</description>
+    <externalId>false</externalId>
+    <label>Processing Status</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

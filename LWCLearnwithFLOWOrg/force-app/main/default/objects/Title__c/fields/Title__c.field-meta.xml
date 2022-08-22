@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Title__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>2020-01-31 - N. Ehrmann - The title to be mapped to a Persona. This is a key value and should be unique.</description>
+    <externalId>false</externalId>
+    <label>Title</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Setup_Link_Complete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>2020-02-06 - N. Ehrmann - MANUAL - Setup Team Users check this box to indicate that the Setup Link has been completed, which will cause a date stamp through Process Builder.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to indicate that the Setup Link has been completed by the customer.</inlineHelpText>
+    <label>Setup Link Complete</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

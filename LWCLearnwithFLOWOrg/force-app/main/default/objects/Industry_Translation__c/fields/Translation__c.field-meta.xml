@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Translation__c</fullName>
+    <description>MANUAL - The translated value that will go into the appropriate custom Industry field on Lead or Account.</description>
+    <externalId>false</externalId>
+    <label>Translation</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Industry</valueSetName>
+    </valueSet>
+</CustomField>

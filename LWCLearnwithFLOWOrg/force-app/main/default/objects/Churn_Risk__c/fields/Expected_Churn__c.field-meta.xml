@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expected_Churn__c</fullName>
+    <description>MANUAL - The date that we expect churn will occur. Editable via the entry UI and standard page layout.</description>
+    <externalId>false</externalId>
+    <label>Expected Churn</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

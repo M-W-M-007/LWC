@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reward_Description_Required_FIELD</fullName>
+    <active>true</active>
+    <description>When an actual award is chosen, additional information is required.</description>
+    <errorConditionFormula>NOT(ISBLANK( TEXT(Actual_Reward__c) ) ) &amp;&amp;  ISBLANK(Reward_Details__c) 
+&amp;&amp; TEXT(Actual_Reward__c)  &lt;&gt; Suggested_Reward__c</errorConditionFormula>
+    <errorDisplayField>Reward_Details__c</errorDisplayField>
+    <errorMessage>Please provide details for choosing a different reward from the suggested reward.</errorMessage>
+</ValidationRule>

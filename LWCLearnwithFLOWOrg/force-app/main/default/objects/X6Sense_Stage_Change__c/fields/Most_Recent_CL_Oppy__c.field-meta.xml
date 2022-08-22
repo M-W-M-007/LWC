@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Most_Recent_CL_Oppy__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>AUTO - Populated by SIXSENSE classes. When the stage change occurs, this is the most recent Closed Lost Opportunity at that time.</description>
+    <externalId>false</externalId>
+    <label>Most Recent Lost Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>6Sense Lost Opportunity</relationshipLabel>
+    <relationshipName>X6Sense_Stage_Changes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

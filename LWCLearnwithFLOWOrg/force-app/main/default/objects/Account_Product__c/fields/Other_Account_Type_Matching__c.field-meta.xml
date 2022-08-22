@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Account_Type_Matching__c</fullName>
+    <description>MANUAL - Set using the ACCTPRODUCTS component on the Account or Opportunity page. Users can enter an &quot;Other&quot; value in the UI to specify a type of Account that is being addressed with AUTOREC matching.</description>
+    <externalId>false</externalId>
+    <label>Other Account Type - Matching</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Setup_Link_Complete_Must_Be_Checked</fullName>
+    <active>true</active>
+    <description>2020-02-06 - N. Ehrmann - Setup Link Completed must be checked to proceed to Admin Training.</description>
+    <errorConditionFormula>AND(
+   ISPICKVAL(Status__c, &quot;Admin Training&quot;),
+   NOT(Setup_Link_Complete__c)
+)</errorConditionFormula>
+    <errorDisplayField>Setup_Link_Complete__c</errorDisplayField>
+    <errorMessage>The Setup Link must be completed to proceed to Admin Training.</errorMessage>
+</ValidationRule>

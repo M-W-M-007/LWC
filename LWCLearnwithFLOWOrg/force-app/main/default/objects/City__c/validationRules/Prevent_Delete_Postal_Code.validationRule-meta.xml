@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Delete_Postal_Code</fullName>
+    <active>true</active>
+    <description>Prevents deletion of postal codes.</description>
+    <errorConditionFormula>Number_of_Postal_Codes__c &lt;  PRIORVALUe(Number_of_Postal_Codes__c )</errorConditionFormula>
+    <errorMessage>Deletion of postal codes is not allowed.</errorMessage>
+</ValidationRule>

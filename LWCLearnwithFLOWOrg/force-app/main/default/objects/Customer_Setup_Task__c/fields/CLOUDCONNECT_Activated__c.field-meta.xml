@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CLOUDCONNECT_Activated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>2020-05-15 - N. Ehrmann - MANUAL - Indicates that CloudConnect has been activated.</description>
+    <externalId>false</externalId>
+    <label>CloudConnect Activated</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intercompany_Accounts__c</fullName>
+    <description>MANUAL - Set using the ACCTPRODUCTS component on the Account or Opportunity page. The number of Intercompany Accounts addressed with AUTOREC MATCHING.</description>
+    <externalId>false</externalId>
+    <label>Intercompany Accounts</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

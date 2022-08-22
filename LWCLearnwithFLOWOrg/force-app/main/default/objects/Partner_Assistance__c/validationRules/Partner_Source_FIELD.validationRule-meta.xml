@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Source_FIELD</fullName>
+    <active>false</active>
+    <description>MIS-285: Only allows one partner source per opportunity as indicated by the &apos;Assistance Type&apos; field and is calculated on opp level by the &apos;Number of Partner Sources&apos; field.</description>
+    <errorConditionFormula>(ISCHANGED( Assistance_Type__c )  || ISNEW())&amp;&amp; 
+ ISPICKVAL(Assistance_Type__c,&quot;Source&quot;) &amp;&amp;
+Opportunity__r.Number_of_Partner_Sources__c &gt;= 1</errorConditionFormula>
+    <errorDisplayField>Assistance_Type__c</errorDisplayField>
+    <errorMessage>Only one partner source is allowed on the opportunity. Please adjust the &apos;Assistance Type&apos; field if needed.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Deactivated__c</fullName>
+    <description>2019-12-12 - N. Ehrmann - This field maps to CONTACT . Date_Deactivated__c.</description>
+    <externalId>false</externalId>
+    <label>Date Deactivated</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

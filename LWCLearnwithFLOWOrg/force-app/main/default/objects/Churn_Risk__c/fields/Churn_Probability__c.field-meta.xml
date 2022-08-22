@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Churn_Probability__c</fullName>
+    <description>MANUAL - The likelihood that the At Risk ARR will churn. Editable via the entry UI and standard page layout.</description>
+    <externalId>false</externalId>
+    <label>Churn Probability</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

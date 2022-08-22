@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NetSuite_Rep_Type_TOP</fullName>
+    <active>true</active>
+    <description>When related role is NetSuite Rep, a NetSuite Rep type is required</description>
+    <errorConditionFormula>ISPICKVAL( Contact_Role__c , &quot;NetSuite Rep&quot;) &amp;&amp;
+ ISBLANK( TEXT(NetSuite_Rep_Type__c) )</errorConditionFormula>
+    <errorMessage>NetSuite rep type is required if the related contact role NetSuite Rep.</errorMessage>
+</ValidationRule>

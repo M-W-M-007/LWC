@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outsource_Candidate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>2020-03-16 - N. Ehrmann - MANUAL - This field marks a work item as a candidate for outsource. Candidates for outsource must be well-defined, not exceed a certain level of effort (~60 hours), and must not be core to the company mission or enterprise architecture. See the Business Systems Charter for more information.</description>
+    <externalId>false</externalId>
+    <label>Outsource Candidate</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

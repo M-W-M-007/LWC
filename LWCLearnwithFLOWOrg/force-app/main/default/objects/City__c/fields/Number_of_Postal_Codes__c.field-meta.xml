@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Postal_Codes__c</fullName>
+    <description>Hidden. Calculates a number of postal codes. Used in a validation rule to prevent deletion of child records.</description>
+    <externalId>false</externalId>
+    <label>Number of Postal Codes</label>
+    <summaryForeignKey>Zipcode__c.City__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

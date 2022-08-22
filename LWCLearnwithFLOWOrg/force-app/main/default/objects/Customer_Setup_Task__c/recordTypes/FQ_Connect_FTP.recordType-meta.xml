@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FQ_Connect_FTP</fullName>
+    <active>true</active>
+    <description>2020-03-05 - N. Ehrmann - Tasks for FloQast Connect FTP setup.</description>
+    <label>FloQast Connect - FTP</label>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Done</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>
