@@ -1,0 +1,17 @@
+p{
+    color: chartreuse;
+    border: 1px solid cornsilk;
+    font-size: 35px;
+    font-family: fantasy;
+}
+.user{
+    color: darksalmon;
+    font-size: x-large;
+    border: 2px;
+}
+.change:hover{
+    color: deeppink;
+    font-size: 60px;
+    font-style: unset;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

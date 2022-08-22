@@ -1,0 +1,44 @@
+<template>
+    <lightning-card title="Conditional Rendering">
+        <div class="slds-var-m-around_medium">
+            <!-- <lightning-button variant="success" 
+            label="Show Data" 
+            title="Show Data" 
+            onclick={handleClick} 
+            class="slds-m-left_x-small"></lightning-button> -->
+
+            <lightning-button 
+            label={toggleButtonLabel} 
+            title="Toggle content action" icon-name={toggleIconName}
+            onclick={handleToggleClick}>
+            </lightning-button>
+            
+             <template if:true={isVisible}>
+            <div class="slds-m-vertical_large slds-m-around_medium lgc-id_content-toggle">
+                Ye Baby you clicked the button
+            </div>
+            </template>
+
+            <!-- <template if:true={isVisible}>
+                <div>Ye Baby you clicked the button</div>
+            </template> -->
+            <template if:false={isVisible}>
+                <div>You can't see the data. Please click the button</div>
+            </template>
+
+            <lightning-input 
+            type="text" 
+            label="type hello to show the Text" 
+            onchange={handleInputChange}>
+            </lightning-input>
+            
+            <template if:true={typeMethod}>
+                <div>Hurray!! you have typed correctly</div>
+            </template>
+            <template if:true={typeMethod1}>
+                <div>Hurray!!@@ you have typed correctly</div>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

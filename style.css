@@ -1,0 +1,13 @@
+/* div{  color : red;
+} 
+ #username { font-size : 30px; 
+color : green;
+} 
+.para{ 
+border : 8px solid yellow;
+}   */
+
+div{
+    padding: 20px;
+    border: 100px solid;
+}

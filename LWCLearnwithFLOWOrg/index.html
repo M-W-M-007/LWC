@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shodow DOM</title>
+        <style>
+            p{
+                color: rebeccapurple;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>You can see the Example of SHADOW DOM</p>
+        </div>
+        <div id="host"></div>
+        <button onclick="fetchPtag()">Click me</button>
+        <script>
+            const elem = document.querySelector('#host')
+            const shadowRoot = elem.attachShadow({mode:'open'})
+            shadowRoot.innerHTML = '<p> I am in SHADOW DOM </p>'
+
+            function ftechPtag(){
+                let tags = document.querySelectorAll('p')
+                console.log(tags)
+            }
+        </script>
+    </body>
+</html>
