@@ -1,0 +1,19 @@
+<template>
+        <lightning-card title="Life Cycle Hook Error Phase (We can see error in Inspect console)">
+            <div class="slds-var-m-around_medium">
+            <template if:false={isChildVisible}>
+                <lightning-button variant="brand" label="Show Child" title="Show Child" 
+                onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            </template>
+            
+            <template if:true={isChildVisible}>
+                <lightning-button variant="brand" label="Remove Child" title="Remove Child" 
+               onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            </template>
+            
+               <template if:true={isChildVisible}>
+                <c-life-cycle-hook-error-phasr-child></c-life-cycle-hook-error-phasr-child>
+               </template> 
+                    </div>
+        </lightning-card>
+</template>
