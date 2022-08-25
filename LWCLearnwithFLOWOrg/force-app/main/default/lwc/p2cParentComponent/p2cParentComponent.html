@@ -1,0 +1,44 @@
+<template>
+   <!-- Example of Primitive data -->
+    <c-p2c-child-component
+    message = "Hurray!!! I got The Data."
+    card-heading = "Parent to Child Primitive Data Communication (Primitive Data Type)"
+    number = 786
+    is-valid = true
+    ></c-p2c-child-component>
+
+    <!-- example of Non Primitive data -->
+ <div class="slds-var-m-bottom_medium"></div>
+ <lightning-card title="Parent to Child Communication on action">
+    <div class="slds-var-m-around_medium">
+        <c-p2c-child-component-non-primitive
+    carouseldetails ={carouselData}
+ ></c-p2c-child-component-non-primitive>
+    </div>
+ </lightning-card>
+ 
+
+ <!-- example of data  at action on Parent Component (data passing action)-->
+ <div class="slds-var-m-bottom_medium"></div>
+ <lightning-card title="Parent to Child Communication on action">
+    <div class="slds-var-m-around_medium">
+        <lightning-input type="number" label="Enter Percentage"
+        onkeyup={changeHandler}
+        value={percentage}></lightning-input>
+        <c-p2c-child-component-progressive
+        progress-value={percentage}></c-p2c-child-component-progressive>
+    </div>
+ </lightning-card>
+
+ <!-- example of calling Child Method from Parent -->
+
+ <div class="slds-var-m-bottom_medium"></div>
+ <lightning-card title="Parent to Child Communication Calling Method">
+    <div class="slds-var-m-around_medium">
+        <c-p2c-child-slider
+       ></c-p2c-child-slider>
+        <lightning-button variant="brand" label="Reset Slider" title="Primary action" 
+        onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+    </div>
+ </lightning-card>
+</template>
